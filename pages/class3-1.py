@@ -84,3 +84,9 @@ st.write(f"ans={st.session_state.ans}")  # 顯示 session_state 中的 ans
 # 有時候按按鈕不會自動重新整理畫面，這時可呼叫 st.rerun() 強制重新執行
 if st.button("重新整理畫面", key="banana"):
     st.rerun()  # 重新執行應用以更新畫面
+
+st.write("---")  # 分隔線
+st.title("文字輸入元件")  # 標題：文字輸入元件
+# st.text_input 指令格式 st.text_input(輸入欄位標題, value="預設顯示文字")
+text = st.text_input("輸入文字", value="這是預設文字")
+st.write(f"你輸入的文字是：{text}")  # 顯示使用者輸入的文字
