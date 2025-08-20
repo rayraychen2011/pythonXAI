@@ -42,7 +42,7 @@ print("apple" * 3)  # 字串乘法
 name = "apple"  # 字串變數
 age = 18  # 整數變數
 print(f"My name is {name} and I am {age} years old.")  # 使用f-string
-# 可以將其他型態的資料放入到f字串裡面的 {}，這樣就可以在字串中顯示變數或運算結果
+# 可以將或其他型態的資料放入到f字串裡面的{}，這樣就可以在字串中顯示
 
 # len()函式可以計算任何型態的資料長度
 print(len("apple"))  # 計算字串長度
@@ -72,4 +72,4 @@ print(int(a) + 10)
 print(type(a))  # 證明透過input()輸入內容都是字串
 
 r = input("請輸入圓的半徑: ")
-print(f"圓的面積是: {3.14 * float(r) * float(r)}")  # 將輸入的半徑字串轉為浮點數後計算圓面積 (π≈3.14)
+print(f"圓的面積是: {3.14 * float(r) * float(r)}")
