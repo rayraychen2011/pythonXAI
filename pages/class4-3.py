@@ -11,10 +11,14 @@ image_folder = "image"
 # 初始化商品資料（只跑一次）
 if "products" not in ss:
     ss.products = {
-        "金小胖": {"price": 10, "stock": 1, "image": f"{image_folder}/金小胖.png"},
-        "洗衣機": {"price": 10, "stock": 10, "image": f"{image_folder}/洗衣機.png"},
-        "天堂鑰匙": {"price": 10, "stock": 10, "image": f"{image_folder}/天堂鑰匙.png"},
-        "海尼根": {"price": 10, "stock": 10, "image": f"{image_folder}/海尼根.png"},
+        "金小胖": {
+            "price": 10000000000,
+            "stock": 1,
+            "image": f"{image_folder}/金小胖.png",
+        },
+        "洗衣機": {"price": 70000, "stock": 10, "image": f"{image_folder}/洗衣機.png"},
+        "天堂鑰匙": {"price": 1, "stock": 10, "image": f"{image_folder}/天堂鑰匙.png"},
+        "海尼根": {"price": 70, "stock": 10, "image": f"{image_folder}/海尼根.png"},
     }
 
 # 設定網頁標題
