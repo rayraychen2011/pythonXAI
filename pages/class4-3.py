@@ -89,4 +89,4 @@ with col_3:
     if st.button("補貨"):
         # 將選擇商品的庫存增加輸入的數量
         ss.products[selected_product]["stock"] += new_stock
-        st.experimental_rerun()  # 重新執行程式，更新畫面
+        st.rerun()  # 重新執行程式，更新畫面
