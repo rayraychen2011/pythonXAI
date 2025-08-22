@@ -16,7 +16,9 @@ col_chat, col_clear = st.columns([9, 1])
 
 with col_clear:
     if st.button("🗑"):
-        ss.history = [{"role": "system", "content": "請用繁體中文進行後續對話"}]
+        ss.history = [
+            {"role": "system", "content": "請用繁體中文進行後續對話"}
+        ]  # 這是系統指令"請用繁體中文進行後續對話"
         st.rerun()  # 清空並刷新頁面
 
 # 顯示對話紀錄
